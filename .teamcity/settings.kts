@@ -29,8 +29,8 @@ project {
         vcs {
             root(RelativeId("GitRoot_$i"))
         }
-        })
     }
+    })
 }
 
 
