@@ -10,7 +10,7 @@ project {
     for (i in 1..N) {
 
         vcsRoot(GitVcsRoot({
-            id = "GitRoot_$i"
+            id = Id("GitRoot_$i")
             name = "Git Root #$i"
             url = "https://github.com/ChubatovaTiger/manyBranches"
             branch = "refs/heads/br-demo-$i"   
