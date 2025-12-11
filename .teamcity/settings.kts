@@ -5,7 +5,7 @@ version = "2024.03"
 
 project {
 
-    val N = 100 //number of VCS roots
+    val N = 300 //number of VCS roots
 
     for (i in 1..N) {
 
